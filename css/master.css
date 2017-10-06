@@ -13,7 +13,8 @@ body {
 	position: absolute;
 	top: 50%;
 	left: 50%;
-	width: 90%;
+	width: 50%;
+	height: 50%;
 	font-size: 0;
 	-webkit-transform: translate(-50%);
 					transform: translate(-50%);
@@ -260,20 +261,20 @@ p {
 }
 .letter:nth-child(8):before {
   content: "AFHUPDNYED";
-  margin-top: 0px;
+  margin-top: -216px;
   -webkit-animation-name: letter8;
           animation-name: letter8;
-  -webkit-animation-duration: 0s;
-          animation-duration: 0s;
-  -webkit-animation-delay: 0.98s;
-          animation-delay: 0.98s;
+  -webkit-animation-duration: 1.5s;
+          animation-duration: 1.5s;
+  -webkit-animation-delay: 0.2s;
+          animation-delay: 0.2s;
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
 }
 
 @-webkit-keyframes letter8 {
   from {
-    margin-top: 0px;
+    margin-top: -216px;
   }
   to {
     margin-top: 24px;
@@ -282,7 +283,7 @@ p {
 
 @keyframes letter8 {
   from {
-    margin-top: 0px;
+    margin-top: -216px;
   }
   to {
     margin-top: 24px;
